@@ -1,0 +1,134 @@
+body{
+	margin:0;
+	font-size: 12px;
+	font-family: helvetica;
+	background: url(../pictures/bg_clear.jpg);
+	overflow-x:hidden;
+}
+
+a{
+	outline: none;
+	text-decoration: none;
+	border:none;
+}
+
+
+/*---------------------Datatable-------------------*/
+div#example_length{
+	margin-left: 30px;
+}
+div#example_info{
+margin-left:30px;
+}
+div#horiz{
+	margin-bottom: 5px;
+}
+
+/*-------------------------------------------------*/
+.bordure{
+	border:1px solid #E1E1E1;
+}
+
+.marge{
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+}
+
+div.form-actions{
+		border-left: 1px solid #E1E1E1;
+		border-right: 1px solid #E1E1E1;
+		border-bottom: 1px solid #E1E1E1;
+}
+
+
+.da-panel{
+	display:block;
+	position:relative;
+	border:1px solid #cacaca;
+	background:url(../pictures/5.png);/*zone_bg.jpg*/
+	padding:16px 0;
+	-webkit-border-radius:3px 3px 0 0;
+	-moz-border-radius:3px 3px 0 0;
+	border-radius:3px 3px 0 0;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,1);
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,1);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,1);
+	text-align:center;
+}
+
+.sub-panel{
+	padding:16px 0 10px 10px;
+	-webkit-border-radius:3px 3px 0 0;
+	-moz-border-radius:3px 3px 0 0;
+	border-radius:3px 3px 0 0;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,1);
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,1);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,1);
+	background: #fff;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+/*--------Top----------------*/
+div#top{
+	background: url(../pictures/topbg_gray.jpg);
+	padding-top: 10px;
+}
+div.controls input.special{
+	width: 230px;
+}
+
+div#menu-horizontal{
+	background: #fff;
+	/*height: 40px;*/
+	margin-top: 5px;
+	/*border:1px solid #C4C4C4;*/
+	padding: 5px;
+	padding-bottom: 0px;
+}
+
+.white{
+	background: #fff;
+	margin-top: 05px;
+}
+
+div#general{
+	margin-top: 20px;
+}
+
+a:hover.someClass{
+	text-decoration: none;
+	border: none;
+}
+.hide{
+	display: none;
+}.retrait1{
+	margin-left: -55px;
+}.retrait{
+	margin-left: -120px;
+}.retrait2{
+	margin-left: -100px;
+}.retrait3{
+	margin-left: -110px;
+}
+/*----------Footer----------*/
+
+div#footer{
+	height: 30px;
+	border:1px solid #E1E1E1;
+	width: 940px;
+	margin-top: 20px;
+	color:#555;
+	padding:10px;
+	padding-top:10px;
+	padding-bottom:2px;
+}
+div#footer a{
+	color:#888;
+}
+
+div.terms{
+		margin-left:350px;
+}
+

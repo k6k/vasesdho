@@ -1,0 +1,58 @@
+div.formWrapper{
+	padding-left: 20px;
+	padding-right: 3px;
+	border: 1px solid #e1e1e1;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -2px;
+	background: #fff;
+	
+	
+	padding-top: 10px;
+}
+div.listPatient{
+	padding-left: 10px;
+	/* padding-right: 10px; */
+	border: 1px solid #e1e1e1;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+	background: #fff;
+	padding-top: 10px;
+}
+
+fieldset{
+	border: 1px solid #e1e1e1;
+	border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	width: 580px;
+	padding:10px;
+	padding-left: 50px;
+	margin-bottom: 15px;
+}
+legend{
+	color:#777;
+	margin-left :20px;
+	margin-right :20px;
+	font-size: 12px;
+}
+
+img.bouton{
+	margin-left: 5px;
+}
+div.btadd{
+	border: 1px solid #e1e1e1;
+	border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	background: url(../pictures/bt.png);
+	padding:2px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+/*---------On success-------------*/
+div#WhenInsert{
+	
+}

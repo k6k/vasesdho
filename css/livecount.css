@@ -1,0 +1,31 @@
+/*
+
+	File: live-countdown.css
+	Media: screen
+	Copyright: (c) 2010 Church Media Group, Inc. www.churchmedia.cc
+	Author: Church Media Group
+	Notes: 
+
+/* Live Countdown Homepage
+--------------------------------------------------------------------------------------- */
+
+.live_countdown { border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; background: #c30 url(../pictures/background/bg_gradient_10.png) 0 0 repeat-x; float: right; display: inline;/*  width: 326px; */ height: 41px; overflow: hidden; position: absolute; border: 1px solid #c30; border-top: 0; }
+.live_info_title { width: 76px; /*float: left;*/ display: inline; }
+.live_info_title h4 { margin: 7px 0 0 10px; line-height: 1em; color: #fff; font-size: 1.3em; font-weight: 600; }
+.live_countdown_timer { float: right; display: inline; width: 246px; height: 41px;  -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.live_countdown_timer li { float: left; display: inline; width: auto; margin-right: 8px; text-align: center; height: 41px; font-family: ligurino-condensed,sans-serif; font-size: 2em; line-height: 41px; color: #fff;}
+.live_countdown_timer li span { font-size: .6em; font-family: proxima-nova, Helvetica, Arial, sans-serif; text-transform: uppercase; }
+.live_countdown_timer li.second { margin-right: 0;}
+.live_countdown_timer li.denomination { font-size: 1em; text-transform: uppercase; width: auto; }
+.live_divider { width: 208px; height: 1px; background: #000; position: absolute; top: 18px; right: 0; z-index: 99;}
+
+/* .live_countdown.live_now { background: #2ca17a;} */
+
+a.live_default { display: block; float: right; font-family: proxima-nova, Helvetica, Arial, sans-serif; text-transform: uppercase; line-height: 39px; font-size: 1.3em; border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; background: #ba1043 url(../pictures/background/bg_gradient_10.png) 0 0 repeat-x; color: #fff; font-weight: 400; text-align: center; width: 310px; height: 41px; overflow: hidden; position: relative; border: 1px solid #d63263; border-top: 0; }
+a.live_default:hover { background: #d4134d url(../pictures/background/bg_gradient_10.png) 0 0 repeat-x; border-color: #ed1556; }
+
+.live_countdown.live_now .live_countdown_timer { width: 210px; }
+.live_countdown.live_now .live_info_title { width: 100px; }
+.live_countdown.live_now .live_info_title h4 { margin-top: 12px; font-size: 1.5em; text-shadow: none; }
+.live_countdown.live_now a { color: #fff; font-weight: normal;}
+.live_countdown.live_now a:hover { color: #fff; text-decoration: underline;}
